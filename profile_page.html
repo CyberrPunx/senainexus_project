@@ -200,7 +200,7 @@
   </header>
 
 </body>
-<body data-theme="light"> <!-- ALEX CHANGE #1: moved the data-theme="light" part to this line so it changes the whole body of the page instead of just the main section -->
+<body data-theme="light"> 
   <main id="root">
     <!-- ===== PROFILE HEADER ===== -->
     <header class="profile-header">
@@ -319,8 +319,6 @@
   <script>
     // ===== THEME TOGGLE =====
 
-    /* ALEX CHANGE #2: changed the const rootEl value so that now it is based on the color we choose for the body with the theme (light and dark) instead of the root */
-    /* const rootEl = document.getElementById('root'); */
     const rootEl = document.body;
 
     const themeToggleBtn = document.getElementById('themeToggle');
@@ -360,4 +358,5 @@
     });
   </script>
 </body>
+
 </html>
